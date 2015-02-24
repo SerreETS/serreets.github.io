@@ -4,6 +4,8 @@ email: none@none
 url: https://example.github.io
 description: "Site officiel du club SerreÉTS."
 tagline: "Le génie du développement durable"
+logoPath: "img/logo_small.png"
+favIconPath: "img/favicon.png"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
