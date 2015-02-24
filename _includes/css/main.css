@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f18c";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -97,7 +97,6 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -148,7 +147,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -194,19 +192,19 @@ section.success {
     }
 }
 
-#portfolio .portfolio-item {
+#projets .projets-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#projets .projets-item .projets-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#projets .projets-item .projets-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -217,11 +215,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#projets .projets-item .projets-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#projets .projets-item .projets-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -232,21 +230,21 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#projets .projets-item .projets-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#projets .projets-item .projets-link .caption .caption-content h3,
+#projets .projets-item .projets-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#portfolio * {
+#projets * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #projets .projets-item {
         margin: 0 0 30px;
     }
 }
@@ -385,7 +383,7 @@ footer .footer-below {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.projets-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -396,20 +394,20 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.projets-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
+.projets-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content .item-details {
+.projets-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.projets-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -419,11 +417,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.projets-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.projets-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -434,7 +432,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.projets-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
