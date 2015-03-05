@@ -22,7 +22,7 @@ footer:
   copyright: Club SerreÉTS
   location: Location
   social: Ailleurs sur le web
-  credits: Credits
+  credits: Commanditaires
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -32,12 +32,12 @@ social:
     url: http://github.com/SerreETS
 
 # Postal address (add as many lines as necessary)
-address:
+address:  
   - line: 1100 Rue Notre-Dame Ouest
   - line: Montréal, QC H3C 1K3, Canada
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 
 
 # Build settings
 markdown: kramdown
