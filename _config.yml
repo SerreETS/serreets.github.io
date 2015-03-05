@@ -32,8 +32,7 @@ social:
     url: http://github.com/SerreETS
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 
+address:  
   - line: 1100 Rue Notre-Dame Ouest
   - line: Montréal, QC H3C 1K3, Canada
 
