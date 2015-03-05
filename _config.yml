@@ -6,6 +6,7 @@ description: "Site officiel du club SerreÉTS."
 tagline: "Le génie du développement durable"
 logoPath: "img/logo_small.png"
 favIconPath: "img/favicon.png"
+commanditeEtsPath: "img/ets_logo_footer.png"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -20,7 +21,7 @@ color:
 # Footer settings
 footer:
   copyright: Club SerreÉTS
-  location: Location
+  location: École de Technologie Supérieure
   social: Ailleurs sur le web
   credits: Commanditaires
 
@@ -32,12 +33,13 @@ social:
     url: http://github.com/SerreETS
 
 # Postal address (add as many lines as necessary)
-address:  
+address: 
   - line: 1100 Rue Notre-Dame Ouest
   - line: Montréal, QC H3C 1K3, Canada
+  - line: Local A-1172
 
 # Credits content
-credits: 
+#credits: 
 
 # Build settings
 markdown: kramdown
